@@ -2,9 +2,9 @@
 
 搜索 `Ubuntu` 并以管理员身份打开。
 
-![[Pasted image 20260706234632.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/Pasted%20image%2020260706234632.png?raw=true" alt="Pasted image 20260706234632" />
 
-![[Pasted image 20260706234652.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/Pasted%20image%2020260706234652.png?raw=true" alt="Pasted image 20260706234652" />
 
 执行命令 `cd /mnt/f/habitat_vln`，进入项目目录。
 
@@ -12,7 +12,7 @@
 cd /mnt/f/habitat_vln
 ```
 
-![[Pasted image 20260706234724.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/Pasted%20image%2020260706234724.png?raw=true" alt="Pasted image 20260706234724" />
 
 执行命令 `conda activate habitat`，激活虚拟环境。
 
@@ -20,5 +20,5 @@ cd /mnt/f/habitat_vln
 conda activate habitat
 ```
 
-![[Pasted image 20260706234801.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/Pasted%20image%2020260706234801.png?raw=true" alt="Pasted image 20260706234801" />
 

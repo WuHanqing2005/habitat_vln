@@ -43,19 +43,19 @@ wsl --install
 wsl --install
 ```
 
-![[fd5ebef6ebbe0a0c8d6455eed88d9bce.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/fd5ebef6ebbe0a0c8d6455eed88d9bce.png?raw=true" alt="fd5ebef6ebbe0a0c8d6455eed88d9bce" />
 
 安装完毕后，系统会自动弹出"欢迎使用 WSL"的窗口。
 
-![[30f1696f479673a6c548f70f394350ad.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/30f1696f479673a6c548f70f394350ad.png?raw=true" alt="30f1696f479673a6c548f70f394350ad" />
 
 回到 PowerShell 控制台窗口，根据提示新建一个账号和密码。**请注意**：在输入密码过程中，屏幕不会显示任何输入的字符，属于正常现象，请完全盲打输入。
 
-![[69e37cf914022dc28ad434c338411141.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/69e37cf914022dc28ad434c338411141.png?raw=true" alt="69e37cf914022dc28ad434c338411141" />
 
 按下回车键，进入 Linux 环境。
 
-![[27fb70437bbbd9faad5107aa93c86d45.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/27fb70437bbbd9faad5107aa93c86d45.png?raw=true" alt="27fb70437bbbd9faad5107aa93c86d45" />
 
 至此，Linux 环境配置成功。
 
@@ -70,7 +70,7 @@ cd ..
 cd /mnt/f
 ```
 
-![[d3b415a8a67d425a574362c2f517c758.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/d3b415a8a67d425a574362c2f517c758.png?raw=true" alt="d3b415a8a67d425a574362c2f517c758" />
 
 在 F 盘根目录下创建项目文件夹 `habitat_vln`：
 
@@ -90,7 +90,7 @@ cd habitat_vln
 explorer.exe .
 ```
 
-![[9e79af2355eb93124150fd579ebae398.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/9e79af2355eb93124150fd579ebae398.png?raw=true" alt="9e79af2355eb93124150fd579ebae398" />
 
 ---
 
@@ -108,7 +108,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O mi
 bash miniconda.sh -b -u -p ~/miniconda3
 ```
 
-![[f9c8c91c9b8b1fd3b3072cf88cdce723 1.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/f9c8c91c9b8b1fd3b3072cf88cdce723%201.png?raw=true" alt="f9c8c91c9b8b1fd3b3072cf88cdce723 1" />
 
 清理掉刚才下载的安装包：
 
@@ -128,7 +128,7 @@ rm miniconda.sh
 source ~/.bashrc
 ```
 
-![[380ed5d6fff08fbe659494972accee80.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/380ed5d6fff08fbe659494972accee80.png?raw=true" alt="380ed5d6fff08fbe659494972accee80" />
 
 ---
 
@@ -153,9 +153,9 @@ conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 conda create -n habitat python=3.9 -y
 ```
 
-![[994c943acc08029a04f997057717bca7.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/994c943acc08029a04f997057717bca7.png?raw=true" alt="994c943acc08029a04f997057717bca7" />
 
-![[e5efeec84f1125f63745e462d4575160.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/e5efeec84f1125f63745e462d4575160.png?raw=true" alt="e5efeec84f1125f63745e462d4575160" />
 
 激活虚拟环境 `habitat`：
 
@@ -165,7 +165,7 @@ conda activate habitat
 
 **提示**: 激活成功后，终端命令行最左边的 `(base)` 会变为 `(habitat)`，表明虚拟环境已成功激活。
 
-![[e93f915e59bf784411881fd38db3330b.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/e93f915e59bf784411881fd38db3330b.png?raw=true" alt="e93f915e59bf784411881fd38db3330b" />
 
 执行以下命令，查看显卡信息，确认 GPU 驱动正常：
 
@@ -173,7 +173,7 @@ conda activate habitat
 nvidia-smi
 ```
 
-![[ac49e1eb5c91252f76c62d42818139d5.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/ac49e1eb5c91252f76c62d42818139d5.png?raw=true" alt="ac49e1eb5c91252f76c62d42818139d5" />
 
 ---
 
@@ -185,11 +185,11 @@ nvidia-smi
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
 ```
 
-![[27f824250429a16ab3eaf83dd2baacc3.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/27f824250429a16ab3eaf83dd2baacc3.png?raw=true" alt="27f824250429a16ab3eaf83dd2baacc3" />
 
-![[ec7a30ad3338c246b7be9e0c2598c2bd.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/ec7a30ad3338c246b7be9e0c2598c2bd.png?raw=true" alt="ec7a30ad3338c246b7be9e0c2598c2bd" />
 
-![[2dc863069271d3b0028f48184fde5a5b.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/2dc863069271d3b0028f48184fde5a5b.png?raw=true" alt="2dc863069271d3b0028f48184fde5a5b" />
 
 #### 1.5.2 安装 Habitat-Sim（含 Bullet 物理引擎支持）
 
@@ -197,9 +197,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 conda install -c aihabitat -c conda-forge habitat-sim withbullet -y
 ```
 
-![[796ec1dafd262ae2fbd4312e28642c83.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/796ec1dafd262ae2fbd4312e28642c83.png?raw=true" alt="796ec1dafd262ae2fbd4312e28642c83" />
 
-![[0ef2be406b419ceafcc8d513c4a459f4.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/0ef2be406b419ceafcc8d513c4a459f4.png?raw=true" alt="0ef2be406b419ceafcc8d513c4a459f4" />
 
 #### 1.5.3 安装系统级依赖库
 
@@ -211,9 +211,9 @@ conda install -c aihabitat -c conda-forge habitat-sim withbullet -y
 sudo apt update && sudo apt install libgomp1 -y
 ```
 
-![[6b7c80a20a36641dcb47c597c586223a.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/6b7c80a20a36641dcb47c597c586223a.png?raw=true" alt="6b7c80a20a36641dcb47c597c586223a" />
 
-![[0d863eddef3f7b26b1bcafac031cb176.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/0d863eddef3f7b26b1bcafac031cb176.png?raw=true" alt="0d863eddef3f7b26b1bcafac031cb176" />
 
 #### 1.5.4 验证 PyTorch 与 CUDA
 
@@ -232,7 +232,7 @@ print(torch.cuda.is_available())
 
 **预期输出**: 若屏幕打印 `True`，则说明 PyTorch 部署成功，且 GPU 加速功能正常。
 
-![[991718c05de6816139c8b1a3403b03e2.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/991718c05de6816139c8b1a3403b03e2.png?raw=true" alt="991718c05de6816139c8b1a3403b03e2" />
 
 #### 1.5.5 安装 OpenGL 运行库
 
@@ -242,7 +242,7 @@ print(torch.cuda.is_available())
 sudo apt install libopengl0 -y
 ```
 
-![[0ff623821be4961ec91de9135f3b4c00.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/0ff623821be4961ec91de9135f3b4c00.png?raw=true" alt="0ff623821be4961ec91de9135f3b4c00" />
 
 #### 1.5.6 解决 Numba 版本兼容性冲突
 
@@ -253,7 +253,7 @@ pip uninstall numba -y
 pip install numba==0.58.1
 ```
 
-![[29788d5c88bfb0f9fdc8301976d59b52 1.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/29788d5c88bfb0f9fdc8301976d59b52%201.png?raw=true" alt="29788d5c88bfb0f9fdc8301976d59b52 1" />
 
 #### 1.5.7 补齐其他依赖包
 
@@ -263,7 +263,7 @@ pip install numba==0.58.1
 pip install imageio-ffmpeg pillow==10.4.0
 ```
 
-![[f9cda433b9b14020fad53bd310b8dbfa.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/f9cda433b9b14020fad53bd310b8dbfa.png?raw=true" alt="f9cda433b9b14020fad53bd310b8dbfa" />
 
 #### 1.5.8 验证 Habitat-Sim
 
@@ -282,7 +282,7 @@ print(habitat_sim.__version__)
 
 **预期输出**: 打印版本号 `0.3.3`，表示 Habitat-Sim 安装成功。
 
-![[d0ece708442327233edca4674f481873.png]]
+<img src="https://github.com/WuHanqing2005/habitat_vln/blob/main/attachments/d0ece708442327233edca4674f481873.png?raw=true" alt="d0ece708442327233edca4674f481873" />
 
 ---
 
